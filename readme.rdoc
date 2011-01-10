@@ -150,7 +150,7 @@ Again, by requiring a different YAML file based on the environment it is easy to
 
 == A note about locking
 
-By design a configuration value is not meant to be edited or created after the configuration block has been run (if you do you will run into a Configr::ConfigurationLocked error). In my opinion configurations such as those created by Configr are meant to be read-only during the lifetime of the application. Configr could however be altered to allow this with a simple patch should it be required.
+By design a configuration value is not meant to be edited or created after the configuration block has been run (if you do you will run into a ConfigurationLocked error). In my opinion configurations such as those created by Configr are meant to be read-only during the lifetime of the application. Configr could however be altered to allow this with a simple patch should it be required.
 
 
 
